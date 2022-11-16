@@ -12,7 +12,7 @@ from ca_fire import evolve_forest, write_netcdf
 GRID_N_X = 100  # sub-divisions along X axis
 PROB_GROWTH = 1.0e-4  # probability of new growth per cell per unit time
 PROB_NEW_FIRE = 1.0e-6  # probability of new fire per cell per unit time
-N_TIME_STEP = 20000  # number of time-steps
+N_TIME_STEP = 25000  # number of time-steps
 VERBOSE = True # set to False to suppress printing
 PROB_GROWTH_LIST = [1e+00, 1e-01, 1e-02, 1e-03, 1e-04, 1e-05]
 
